@@ -9,7 +9,7 @@ using namespace std;
 using namespace std::chrono;
 
 int main()
-{
+{   
     random_device rd;
     mt19937 gen(rd());
     uniform_int_distribution<int> dist(-100000, 100000);
